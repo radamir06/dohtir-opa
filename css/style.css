@@ -1,0 +1,75 @@
+@import url(fonts.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    
+
+}
+.card{
+    padding-left: 40px;
+    width: 900px;
+    height: 250px;
+
+    display: flex;
+    flex-direction: row;
+
+    position:relative;
+    
+
+    border-radius: 10px;
+
+    background-color: #3E6D9C;
+}
+.content{
+    width: 500px;
+    height: 250px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    
+    font-family:'MON';
+    
+    color: white;
+}
+img{
+    height: 400px;
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+}
+.btn{
+    height: 40px;
+    width: 100px;
+
+ background-color: RGB(39, 92, 51);
+ border-radius: 8px;
+ border: none;
+ color:white;
+
+ cursor: pointer;
+
+ font-family:'MON';
+
+}
+.btn:hover{
+    background-color: #3E6D9C;
+    border: 3px solid RGB(39, 92, 51);
+    
+    
+}
+p{
+    width: 400px;
+}
+
+
